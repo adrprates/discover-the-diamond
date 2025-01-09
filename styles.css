@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    height: 600px;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+    background: rgb(54, 54, 54);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#startGame{
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #9008ff;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#startGame:hover{
+    color: #9008ff;
+    background: white;
+    border: 2px solid #9008ff;
+    border-radius: 8px;
+}
+
+#message {
+    background: white;
+    font-size: 18px;
+    border-radius: 2px;
+    color: #9008ff;
+    margin-top: 50px;
+}
+
+.rocks {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+  
+.rock {
+    width: 100px; 
+    height: 100px; 
+    background-size: cover;
+    background-position: center; 
+    border: 2px solid #ffffff;
+}
+
+.rock:hover {
+    border: 2px solid #00fff2;
+}

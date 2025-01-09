@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre o Diamante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encontre o Diamante!</h1>
+        <button id="startGame">Iniciar Jogo</button>
+        <div class="scoreboard">
+            <p>Pontuação: <span id="score">0</span></p>
+            <p>Rodadas Restantes: <span id="rounds">10</span></p>
+        </div>
+        <div id="message"></div>
+        <div class="rocks">
+            <div class="rock" data-index="0"></div>
+            <div class="rock" data-index="1"></div>
+            <div class="rock" data-index="2"></div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
